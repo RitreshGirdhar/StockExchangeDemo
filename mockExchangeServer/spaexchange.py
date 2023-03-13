@@ -147,7 +147,6 @@ def get_stock(symbol):
 
 
 
-
 @app.route('/push_message', methods=['POST'])
 def push_message():
     data = request.get_json()
